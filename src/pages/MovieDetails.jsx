@@ -2,6 +2,7 @@
   import { useState, useEffect, Suspense } from 'react';
   import { getMovieById } from 'services/movieAPI';
   import css from './MovieDetails.module.css';
+  
   const MovieDetails = () => {
     const location = useLocation();
 
