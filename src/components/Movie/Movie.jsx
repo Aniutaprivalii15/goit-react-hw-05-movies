@@ -11,9 +11,7 @@ export const Movie = ({ movie }) => {
     >
       <div className={css.films__img}>
         <img
-          src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
-          alt={movie.original_title}
-          loading="lazy"
+          src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}alt={movie.original_title}loading="lazy"
         />
       </div>
       <div className={css.films__description}>
