@@ -4,6 +4,7 @@ import { MovieList } from 'components/MovieList/MovieList';
 import { useState, useEffect } from 'react';
 import { getTrendingMovie } from 'services/movieAPI';
 import css from './Home.module.css';
+
 const Home = () => {
   const [movies, setMovies] = useState([]);
   useEffect(() => {
@@ -26,4 +27,4 @@ const Home = () => {
     
   );
 };
-export default Home;
+ export default Home;
